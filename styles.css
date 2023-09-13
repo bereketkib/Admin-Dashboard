@@ -4,4 +4,78 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    background-color: #d4d4d8;
+    font-size: 0.9em;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 1fr 9fr;
+}
+header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 8px 16px;
+    color: white;
+    background-color: #0284c7;
+}
+svg.logo {
+    width: 46px;
+    height: 46px;
+    fill: white;
+}
+nav {
+    background-color: white;
+    grid-column: 2 / 6;
+    grid-row: 1 / 3;
+    
+}
+.uppernav, .lowernav {
+    padding: 16px 64px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.upperleft, .upperright, .lowerleft, .lowerright {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+svg.searchLogo {
+    width: 24px;
+    height: 24px;
+}
+input.searchInput {
+    background-color: #d4d4d8;
+    border-radius: 50px;
+    border: none;
+    width: 500px;
+    height: 30px;
+}
+svg.bell {
+    width: 24px;
+    height: 24px;
+}
+img.profile {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+}
+
+
+
+img.picture {
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+}
+.lowerright button {
+    background-color: #0284c7;
+    color: white;
+    border-radius: 50px;
+    padding: 12px 32px;
+    font-size: 1.1em;
+    border: none;
 }
