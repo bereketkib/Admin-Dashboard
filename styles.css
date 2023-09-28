@@ -6,6 +6,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #e2e8f0;
     font-size: 0.9em;
+    overflow: hidden;
 }
 .container{
     display: grid;
